@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<title>UPDATES</title>
+<title>Account</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="css/w3.css">
@@ -25,7 +25,7 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
     <i class="fa fa-home w3-xxlarge"></i>
     <p>HOME</p>
   </a>
-  <a href="account.html" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+  <a href="account.html" class="w3-bar-item w3-button w3-padding-large w3-black">
     <i class="fa fa-user w3-xxlarge"></i>
     <p>PROFILE</p>
   </a>
@@ -33,7 +33,7 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
     <i class="fa fa-eye w3-xxlarge"></i>
     <p>DISCOVER</p>
   </a>
-  <a href="updates.html" class="w3-bar-item w3-button w3-padding-large w3-black">
+  <a href="updates.html" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
     <i class="fa fa-envelope w3-xxlarge"></i>
     <p>UPDATES</p>
   </a>
@@ -51,20 +51,64 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
 
 <!-- Page Content -->
 <div class="w3-padding-large" id="main">
-		<!-- Testimonials -->
-		<h3 class="w3-padding-24 w3-text-light-grey">UPDATES</h3>  
-		<img src="images/bandmember.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
-		<p><span class="w3-large w3-margin-right">Chris Fox.</span> CEO at Mighty Schools.</p>
-		<p>Jane Doe saved us from a web disaster.</p><br>
-		
-		<img src="images/avatar_g2.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
-		<p><span class="w3-large w3-margin-right">Rebecca Flex.</span> CEO at Company.</p>
-		<p>No one is better than Jane Doe.</p>
-	  <!-- End About Section -->
-	  </div>
+  <!-- The Grid -->
+  <div class="w3-row-padding">
+  
+    <!-- Left Column -->
+    <div class="w3-third">
+    
+      <div class="w3-black w3-text-grey w3-card-4">
+        <div class="w3-display-container">
+          <img src="images/avatar_hat.jpg" style="width:100%" alt="Avatar">
+          <div class="w3-display-bottomleft w3-container w3-text-black">
+            <h2>Jane Doe</h2>
+          </div>
+        </div>
+        <div class="w3-container">
+          <p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-teal"></i>Designer</p>
+          <p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-teal"></i>London, UK</p>
+          <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-teal"></i>ex@mail.com</p>
+          <p><i class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-teal"></i>1224435534</p>
+          <hr>
+        </div>
+      </div><br>
+
+    <!-- End Left Column -->
+    </div>
+    <!-- Right Column -->
+    <div class="w3-twothird">
+    
+      <div class="w3-container w3-card w3-black w3-margin-bottom">
+		<!-- Photo Grid -->
+		<div class="w3-row w3-row-padding w3-padding-32" id="myGrid" style="margin-bottom:128px">
+		  <div class="w3-third">
+			<img src="images/rocks.jpg" style="width:100%">
+			<img src="images/sound.jpg" style="width:100%">
+			<img src="images/woods.jpg" style="width:100%">
+		  </div>
+
+		  <div class="w3-third">
+			<img src="images/coffee.jpg" style="width:100%">
+			<img src="images/bridge.jpg" style="width:100%">
+			<img src="images/notebook.jpg" style="width:100%">
+
+		  </div>
+
+		  <div class="w3-third">
+			<img src="images/mist.jpg" style="width:100%">
+			<img src="images/workbench.jpg" style="width:100%">
+			<img src="images/gondol.jpg" style="width:100%">
+
+		  </div>
+		</div>     
+        
+      </div>
+
+    <!-- End Right Column -->
+    </div>
     <!-- Footer -->
-  <footer class="w3-padding-64 bottom w3-center">
-    <a class="w3-btn w3-round w3-xlarge w3-red"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
+  <footer class="w3-padding-64 w3-center w3-bottom">
+    <a class="w3-btn w3-circle w3-xlarge w3-red"><i class="fa fa-microphone" aria-hidden="true"></i></a>
   </footer>
 
 <!-- END PAGE CONTENT -->
